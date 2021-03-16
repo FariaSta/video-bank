@@ -138,6 +138,23 @@
             display: flex;
             justify-content: center;
         }
+        .carousel-item__details
+        {
+            opacity: 1;
+            top: 170px;
+        }
+        .carousel-item:hover ~ .carousel-item
+        {
+            display: none;
+        }
+        .carousel__container:hover .carousel-item
+        {
+            display: none;
+        }
+        .carousel__container:hover .carousel-item:hover
+        {
+            display: none;
+        }
     }
     @media only screen and (max-width: 420px)
     {
@@ -154,10 +171,27 @@
         }
         .carousel
         {
-            height: 450px;
+            height: 570px;
         }
         .carousel__container
         {
-            height: 420px;
+            height: 570px;
+        }
+        .carousel-item__details
+        {
+            opacity: 1;
+            top: 125px;
+        }
+        .carousel-item:hover ~ .carousel-item
+        {
+            display: none;
+        }
+        .carousel__container:hover .carousel-item
+        {
+            display: none;
+        }
+        .carousel__container:hover .carousel-item:hover
+        {
+            display: none;
         }
     }

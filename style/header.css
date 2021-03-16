@@ -68,7 +68,7 @@ body
     color: white;
     
 }
-@media only screen and (max-width: 760px)
+@media only screen and (max-width: 840px)
 {
     body
     {
@@ -79,6 +79,6 @@ body
 {
     body 
     {
-        height: 900px;
+        height: 1000px;
     }
 }
